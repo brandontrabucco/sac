@@ -11,7 +11,7 @@ setup(
     include_package_data=True,
     packages=find_packages(),
     install_requires=[
-        'tensorflow==2.2',
+        'tensorflow==2.5.1',
         'tensorflow-probability==0.10',
         'gym[mujoco]',
         'ray[tune]',
